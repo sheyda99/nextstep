@@ -265,6 +265,7 @@ main::after {
 .founders h2,
 .events h2,
 .mentors h2,
+.trainers h2,
 .incubation-body h2,
 .application-form h2 {
     font-size: 7rem;
@@ -289,11 +290,13 @@ main::after {
 }
 
 .events,
-.mentors {
+.mentors,
+.trainers {
     padding-bottom: 100px;
 }
 .events h2,
-.mentors h2 {
+.mentors h2,
+.trainers h2 {
     margin-bottom: 50px;
 }
 .events > div:first-child,
@@ -318,7 +321,8 @@ main::after {
     color: #FF9A00;
 }
 
-.mentors .col-4 {
+.mentors .col-4,
+.trainers .col-4 {
     margin-bottom: 50px;
 }
 .mentor-box {
@@ -392,8 +396,12 @@ main::after {
     margin-bottom: 20px;
 }
 
+.trainers .mentor-box .mentor-desc a i {
+    opacity: 1;
+}
+
 .application-form form {
-    padding-top: 50px;
+    padding: 20px 0 100px;
 }
 .application-form .form-group {
     display: inline-block;
@@ -416,7 +424,11 @@ main::after {
 .application-form .form-group textarea:focus-visible {
     outline: 0;
 }
-
+.application-form .btn-blue {
+    background-color: #0B315E;
+    color: #FFFFFF;
+    text-transform: none;
+}
 
 
 /**************** ABOUT US PAGE ****************/
@@ -634,6 +646,13 @@ main::after {
     font-size: 1.4rem !important;
     line-height: 2rem !important;
     color: #0F172A;
+}
+.pagination ul li.arrow {
+    font-size: 1.6rem;
+}
+.pagination ul li.arrow a {
+    padding: 10px;
+    color: #0B315E;
 }
 .pagination ul li.active a {
     background: #EEF2FF;
