@@ -1,0 +1,397 @@
+
+
+/**************** HOMEPAGE SECTIONS ****************/
+.about-us .row {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.about-us .section-text h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 4rem;
+    margin-bottom: 32px;
+}
+.about-us .section-text p {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    margin-bottom: 32px;
+}
+.about-us .section-text .more,
+#about-us .more {
+    padding: 8px 12px;
+    background: #F1F5F9;
+    color: #0F172A;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 2rem;
+    transition: 0.5s;
+}
+.about-us .section-text .more i,
+#about-us .more i {
+    margin-left: 12px;
+}
+.about-us .section-text .more:hover,
+#about-us .more:hover {
+    background: #e1e6eb;
+}
+.about-us .section-img {
+    text-align: right;
+}
+
+.partners {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.news {
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+.owl-carousel {
+    margin-top: 28px;
+}
+
+.news-box .news-date {
+    margin-bottom: 16px;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: #475569;
+}
+.news-box .news-title {
+    margin-bottom: 0;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+    color: #0F172A;
+}
+
+/**************** FOOTER SECTIONS ****************/
+footer {
+    padding: 100px 0;
+    background-image: url('../img/icons/footer-bg.png');
+}
+footer > div {
+    background-color: #ffffff;
+    color: #212121;
+    border-radius: 20px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+footer .row {
+    margin: 0 100px;
+}
+footer .col-7 {
+    padding-right: 100px;
+}
+footer img {
+    margin-bottom: 32px;
+}
+footer p {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    margin: 0;
+}
+footer form {
+    margin-top: 24px;
+}
+footer .social-media p {
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+footer .social-media ul li {
+    display: inline-block;
+}
+footer .social-media ul li a {
+    color: #0F172A;
+    margin-right: 20px;
+}
+footer .social-media ul li a i {
+    font-size: 1.6rem;
+}
+footer .copyright {
+    margin-top: 65px;
+    color: #9B9B9A;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+}
+
+
+
+/**************** ABOUT US PAGE ****************/
+#about-us .board-members h2,
+#about-us .coreteam h2,
+#projects h2,
+#opportunities h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 4rem;
+    margin-bottom: 24px;
+}
+/* #about-us .banner p {
+    margin-bottom: 0;    
+}
+#about-us .banner .img-desc {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: #2E3131;
+    margin: 4px 0 0 auto;
+    max-width: 372px;
+    text-align: left;
+} */
+
+#about-us .achivements {
+    background-color: #F8FAFC;
+    padding: 60px 0;
+    margin-bottom: 100px;
+}
+#about-us .achivement-row {
+    display: flex;
+    justify-content: space-between;
+}
+#about-us .achivement-box {
+    width: 120px;
+    padding: 32px 16px 12px;
+    background-color: #ffffff;
+    color: #0F172A;
+    border: 1px solid #CBD5E1;
+    border-radius: 8px;
+    text-align: center;
+}
+#about-us .achivement-box h3 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+    margin-bottom: 16px;
+}
+#about-us .achivement-box p {
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+#about-us .board-members .row {
+    padding: 80px 0;
+}
+#about-us .board-members p {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+}
+#about-us .board-members .member-info {
+    margin-bottom: 25px;
+}
+#about-us .board-members .member-info p {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.8rem;
+    margin-bottom: 0;
+}
+#about-us .board-members img {
+    background: linear-gradient(107.5deg, #E0E7FF 0%, #DAFFF6 119.37%);
+    border-radius: 8px;
+}
+
+#about-us .coreteam {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#about-us .coreteam > p {
+    width: 50%;
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+#about-us .coreteam > p a {
+    color: inherit;
+    text-decoration: underline;
+}
+#about-us .coreteam .row {
+    margin: 40px -18px;
+}
+#about-us .coreteam .col-4 {
+    padding: 18px;
+    text-align: center;
+}
+#about-us .coreteam .col-4 > div {
+    height: 100%;
+    border: 1px solid #CBD5E1;
+    border-radius: 8px;
+    padding: 16px;
+}
+#about-us .coreteam .coreteam-img {
+    width: 100%;
+    height: 0;
+    padding-top: 100%;
+    background-size: contain;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    position: relative;
+}
+#about-us .coreteam .coreteam-img::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(107.5deg, #E0E7FF 0%, #DAFFF6 119.37%);
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+#about-us .coreteam .col-4 .coreteam-name {
+    margin: 12px 0 0;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+    color: #0F172A;
+}
+#about-us .coreteam .col-4 p:last-child {
+    margin: 8px 0 0;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: #475569;
+}
+
+
+
+/**************** PROJECTS PAGE ****************/
+#projects {
+    padding-top: 100px;
+}
+#projects .row {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#projects p {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    margin-bottom: 25px;
+}
+#projects p.project-name {
+    font-size: 2rem;
+    font-weight: 600;
+}
+#projects ul {
+    margin-top: -25px;
+    padding-left: 20px;
+    list-style-type: disc;
+}
+#projects ul li {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+}
+
+.pagination {
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+.pagination ul {
+    margin: 0 auto;
+    line-height: 4rem;
+}
+.pagination ul li {
+    display: inline-block;
+    margin: 0 3px;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: #0F172A;
+}
+.pagination ul li:first-child,
+.pagination ul li:last-child {
+    font-size: 1.6rem;
+}
+.pagination ul li a {
+    padding: 10px 16px;
+    color: inherit;
+}
+.pagination ul li:first-child a,
+.pagination ul li:last-child a {
+    padding: 10px;
+}
+.pagination ul li.active a {
+    background: #EEF2FF;
+    color: #4F46E5;
+    border: 1px solid #818CF8;
+    border-radius: 24px;
+}
+
+
+
+/**************** NEWS PAGE ****************/
+#news {
+    padding-top: 100px;
+}
+#news .row {
+    padding: 40px 0;
+    margin-right: -18px;
+    margin-left: -18px;
+}
+#news .news-box {
+    margin: 18px 11px;
+}
+
+#news-details {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#news-details img {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 64px;
+}
+#news-details h3 {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 4rem;
+}
+#news-details p {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    color: #000000;
+}
+#news-details .news-date {
+    font-weight: 600;
+    color: #475569;
+    margin: 24px 0;
+    text-transform: uppercase;
+}
+
+
+#news-details .news-link {
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+#news-details .news-link a {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #0F172A;
+    text-decoration: none;
+}
+#news-details .news-link a i {
+    margin: 0 16px;
+}
+
+
+
+/**************** OPPORTUNITIES PAGE ****************/
+.interest-form {
+    padding: 50px 0;
+}
+.interest-form .col-5 {
+    padding-right: 30px;
+}
+.interest-form input,
+.interest-form select,
+.interest-form textarea {
+    width: 100% !important;
+    margin-bottom: 24px;
+}
+.interest-form textarea {
+    margin-bottom: 0;
+    height: 223px;
+    resize: none;
+}
