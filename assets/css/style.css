@@ -25,6 +25,42 @@ ul {
    list-style: none;
 }
 
+.btn-orange {
+    width: max-content;
+    padding: 12px 15px;
+    border-radius: 4px;
+    background-color: #FF9A00;
+    color: #FFFFFF;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2rem;
+    transition: 0.5s;
+}
+.btn-orange:hover {
+    background-color: #FFFFFF;
+    color: #FF9A00;
+}
+
+.btn-blue {
+    display: inline-block;
+    width: 180px;
+    padding: 10px 0;
+    border: 2px solid #0B315E;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    letter-spacing: 0.1em;
+    background-color: #FFFFFF;
+    color: #0B315E;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.btn-blue:hover {
+    background-color: #0B315E;
+    color: #FFFFFF;
+}
 
 /**************** NAVBAR ****************/
 header {
@@ -165,21 +201,7 @@ footer .copyright {
     line-height: 12rem;
     margin: 15px 0 50px;
 }
-.banner.home .banner-text a {
-    width: max-content;
-    padding: 12px 15px;
-    border-radius: 4px;
-    background-color: #FF9A00;
-    color: #FFFFFF;
-    font-size: 1.6rem;
-    font-weight: 500;
-    line-height: 2rem;
-    transition: 0.5s;
-}
-.banner.home .banner-text a:hover {
-    background-color: #FFFFFF;
-    color: #FF9A00;
-}
+
 
 main {
     position: relative;
@@ -240,6 +262,7 @@ main::after {
     box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.13);
 }
 .about h2,
+.founders h2,
 .events h2,
 .mentors h2,
 .incubation-body h2,
@@ -255,25 +278,6 @@ main::after {
     font-size: 1.8rem;
     line-height: 2.7rem;
     text-align: justify;
-}
-.about a {
-    display: inline-block;
-    width: 180px;
-    padding: 10px 0;
-    border: 2px solid #0B315E;
-    border-radius: 4px;
-    font-size: 1.5rem;
-    font-weight: 500;
-    line-height: 1.8rem;
-    letter-spacing: 0.1em;
-    color: #0B315E;
-    text-align: center;
-    text-transform: uppercase;
-    transition: 0.5s;
-}
-.about a:hover {
-    background-color: #0B315E;
-    color: #FFFFFF;
 }
 .about .col-6:last-child {
     display: flex;
@@ -416,18 +420,112 @@ main::after {
 
 
 /**************** ABOUT US PAGE ****************/
-#about-us .about img {
+#about-us .director {
+    padding: 60px 0 100px;
+}
+#about-us .about img,
+#about-us .director img {
     width: 80%;
 }
-#about-us .about .row {
+#about-us .about .row,
+#about-us .director .row {
     align-items: center;
 }
-#about-us .about p {
+#about-us .about p,
+#about-us .director p {
+    width: 85%;
     margin-bottom: 0;
     font-size: 1.6rem;
     line-height: 2.4rem;
+    text-align: justify;
+}
+#about-us .name {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#about-us .director .name h3 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #FF9A00;
+    letter-spacing: 0.05em;
+    margin-right: 15px;
+}
+#about-us .director .link i {
+    font-size: 2.4rem;
+    color: #0B315E;
+}
+#about-us .director p.title {
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: #0B315E;
+    margin-bottom: 24px;
+    letter-spacing: 0.05em;
+    text-align: left;
 }
 
+.founders {
+    padding: 40px 0 200px;
+}
+.founders .mentor-box,
+.founders .mentor-box:hover {
+    box-shadow: 0px 4px 25px 0px rgb(0 0 0 / 25%);
+    border-radius: 15px;
+    height: min-content;
+}
+.founders .mentor-box .mentor-img {
+    border-radius: 15px 15px 0 0;
+}
+.founders .mentor-box .mentor-desc {
+    border-radius: 15px;
+}
+.founders .mentor-box .mentor-desc a i {
+    opacity: 1;
+}
+.founders .btn-blue {
+    margin-top: 40px;
+}
+
+.founders .modal-content {
+    padding: 10px;
+}
+.founders .modal-header {
+    border-bottom: 0;
+    font-size: 1.8rem;
+}
+.founders .modal-header button {
+    align-self: flex-start;
+}
+.founders .modal-header img {
+    width: 100%;
+}
+.founders .modal-header .mentor-name {
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3rem;
+    letter-spacing: 0.05em;
+    color: #0B315E;
+    margin-bottom: 10px;
+}
+.founders .modal-header .mentor-title {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.2rem;
+    letter-spacing: 0.05em;
+    color: #0B315E;
+    margin-bottom: 20px;
+}
+.founders .modal-header .social-media i {
+    font-size: 2.4rem;
+    color: #0B315E;
+}
+.founders .modal-body {
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-align: justify;
+}
 
 
 /**************** EVENTS PAGE ****************/
