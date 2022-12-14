@@ -215,8 +215,7 @@ main::after {
     left: 80px;
     right: 80px;
     background: url('../img/icons/bg-arrows.svg');
-    background-size: cover;
-    background-repeat: repeat;
+    background-repeat: repeat-y;
     z-index: -1;
     opacity: 80%;
 }
@@ -267,7 +266,8 @@ main::after {
 .mentors h2,
 .trainers h2,
 .incubation-body h2,
-.application-form h2 {
+.application-form h2,
+.contact h2 {
     font-size: 7rem;
     font-weight: 700;
     color: #FF9A00;
@@ -296,7 +296,8 @@ main::after {
 }
 .events h2,
 .mentors h2,
-.trainers h2 {
+.trainers h2,
+.contact h2 {
     margin-bottom: 50px;
 }
 .events > div:first-child,
@@ -400,13 +401,41 @@ main::after {
     opacity: 1;
 }
 
+.about.services .col-6 {
+    display: block;
+}
+.about.services h4 {
+    font-size: 3.2rem;
+    font-weight: 500;
+    line-height: 5rem;
+    color: #FC682B;
+    letter-spacing: 0.05em;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+.about.services td {
+    width: 50%;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    color: #0B315E;
+    letter-spacing: 0.05em;
+    padding: 15px 0;
+    border-bottom: 1px solid #a0a0a0;
+}
+.about.services td:nth-child(1) {
+    padding-right: 15px;
+}
+.about.services td:nth-child(2) {
+    padding-left: 15px;
+}
+
 .application-form form {
     padding: 20px 0 100px;
 }
 .application-form .form-group {
     display: inline-block;
     width: 48%;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
     padding-right: 20px;
 }
 .application-form .form-group input,
@@ -415,10 +444,15 @@ main::after {
     background: #FFFFFF;
     border: 2px solid rgba(217, 217, 217, 0.7);
     border-radius: 5px;
-    padding: 16px 24px;
-    font-size: 1.8rem;
+    padding: 14px 20px;
+    font-size: 1.6rem;
     line-height: 2.2rem;
     resize: none;
+    transition: 0.5s;
+}
+.application-form .form-group input:focus,
+.application-form .form-group textarea:focus {
+    border-color: #0B315E;
 }
 .application-form .form-group input:focus-visible,
 .application-form .form-group textarea:focus-visible {
@@ -429,6 +463,34 @@ main::after {
     color: #FFFFFF;
     text-transform: none;
 }
+
+
+
+/**************** SINGLE MENTOR PAGE ****************/
+#single-mentor .mentors {
+    padding-top: 120px;
+}
+.single-mentor {
+    margin-bottom: 150px;
+}
+.single-mentor img {
+    width: 100%;
+}
+.single-mentor h3 {
+    font-size: 4.2rem;
+    font-weight: 700;
+    color: #0B315E;
+    letter-spacing: 0.05em;
+    margin: 30px 0 15px;
+}
+.single-mentor p {
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 3.4rem;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
 
 
 /**************** ABOUT US PAGE ****************/
@@ -664,4 +726,40 @@ main::after {
 .pagination ul li a {
     padding: 10px 16px;
     color: inherit;
+}
+
+
+
+/**************** CONTACT PAGE ****************/
+.contact {
+    padding-top: 120px;
+}
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 14px 20px;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    margin-bottom: 35px;
+    border: 2px solid rgba(217, 217, 217, 0.7);
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.contact textarea {
+    height: 157px;
+    resize: none;
+}
+.contact input:focus,
+.contact textarea:focus {
+    border-color: #0B315E;
+}
+.contact input:focus-visible,
+.contact textarea:focus-visible {
+    outline: 0;
+}
+
+.map iframe {
+    width: 100%;
+    height:300px;
+    margin: 90px 0;
 }
